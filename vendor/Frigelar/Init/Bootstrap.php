@@ -22,6 +22,8 @@ abstract class Bootstrap
         $controller = new $class;
         $action = $route['action'];
         $controller->$action();
+      } else {
+        require_once "../public/images/ErrorImages/ErrorImages.php";
       }
     });
   } 

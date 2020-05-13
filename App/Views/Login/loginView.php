@@ -4,7 +4,7 @@
 <head>
   <title>Login - Frigelar Digital Tool</title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <link rel="stylesheet" type="text/css" href="../App/Views/Login/assets/css/style.css"> 
+  <link rel="stylesheet" type="text/css" href="style.css"> 
   <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,14 +40,14 @@
             <input type="password" name="password" id="password" class="input">
           </div>
         </div>
+        <?php var_dump($_SERVER["REQUEST_URI"]); ?>
         <a href="#">Esqueceu sua senha?</a>
         <button type="submit" class="btn" id="btn" onclick="validaInputs()">Entrar</button>
       </form>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
-k
